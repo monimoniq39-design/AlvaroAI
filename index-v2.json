@@ -1,1 +1,66 @@
-{"repo": {"name": {"en-US": "My First F-Droid Repo Demo"}, "description": {"en-US": "This is a repository of apps to be used with F-Droid. Applications in this repository are either official binaries built by the original application developers, or are binaries built from source by the admin of f-droid.org using the tools on https://gitlab.com/fdroid."}, "icon": {"en-US": {"name": "/icons/icon.png", "sha256": "b1f27fa87f8cabca50cdcd462a0f500d79d883b965a498d0e49eea560b39be1f", "size": 715}}, "address": "https://MyFirstFDroidRepo.org/fdroid/repo", "timestamp": 1794535627000, "categories": {"home": {"name": {"en-US": "home"}}}}, "packages": {"com.alvaroai.app": {"metadata": {"added": 1794532640000, "categories": ["home"], "lastUpdated": 1794532640000, "name": {"en-US": "AlvaroAl"}, "preferredSigner": "3fe57967c15f81ee39ea2b9b88dd96a7506c1b5b9032606ecbea04bbdb15ee3c"}, "versions": {"fcd5de606036e61b61a59640e0dd5208eafd94496ed98ae3d5eb35317b357134": {"added": 1794532640000, "file": {"name": "/AlvaroAl-debug.apk", "sha256": "fcd5de606036e61b61a59640e0dd5208eafd94496ed98ae3d5eb35317b357134", "size": 8670020}, "manifest": {"versionName": "1.0", "versionCode": 1, "usesSdk": {"minSdkVersion": 27, "targetSdkVersion": 35}, "signer": {"sha256": ["3fe57967c15f81ee39ea2b9b88dd96a7506c1b5b9032606ecbea04bbdb15ee3c"]}, "usesPermission": [{"name": "android.permission.INTERNET"}, {"name": "com.alvaroai.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}}}}}}
+{
+  "repo": {
+    "name": {
+      "en-US": "AlvaroAI Repo"
+    },
+    "description": {
+      "en-US": "Repositorio oficial de AlvaroAI - Tu inteligencia artificial hecha en San Juan, Argentina por Alvaro. Las aplicaciones en este repositorio son binarios oficiales creados por los desarrolladores."
+    },
+    "icon": {
+      "en-US": {
+        "name": "/icons/icon.png",
+        "sha256": "b1f27af78cabca50cdcd462a0f500d79d983b965a498d0e49eea560b39be1f",
+        "size": 715
+      }
+    },
+    "address": "https://monimoniq39-design.github.io/AlvaroAI/",
+    "timestamp": 1794535627000,
+    "categories": {
+      "inicio": {
+        "nombre": {
+          "en-US": "inicio"
+        }
+      }
+    }
+  },
+  "packages": {
+    "com.alvaroai.app": {
+      "metadata": {
+        "añadido": 1794532640000,
+        "categorias": ["inicio"],
+        "ultima actualización": 1794532640000,
+        "nombre": {
+          "en-US": "AlvaroAI"
+        },
+        "firmante preferido": "3fe57967c15f81ee39ea2b9b88dd96a7506c1b5b9032606ecbea04bbdb15ee3c"
+      },
+      "versiones": {
+        "fcd5de606036e61b61a59640e0dd5208eafd94496ed98ae3d5eb35317b357134": {
+          "added": 1794532640000,
+          "file": {
+            "name": "/AlvaroAI-debug.apk",
+            "sha256": "fcd5de606036e61b61a59640e0dd5208eafd94496ed98ae3d5eb35317b357134",
+            "size": 8670020
+          },
+          "manifest": {
+            "versionCode": 1,
+            "versionName": "1.0",
+            "minSdkVersion": 27,
+            "targetSdkVersion": 35
+          },
+          "signer": {
+            "sha256": ["3fe57967c15f81ee39ea2b9b88dd96a7506c1b5b9032606ecbea04bbdb15ee3c"]
+          },
+          "usesPermission": [
+            {
+              "name": "android.permission.INTERNET"
+            },
+            {
+              "name": "com.alvaroai.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
